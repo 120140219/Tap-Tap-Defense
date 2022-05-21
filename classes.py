@@ -354,7 +354,7 @@ class Revolver(Senjata):
         super().update(screen, font)
 
 class Skill1:
-    def _init_(self):
+    def __init__(self):
         self.name = '0'
         self.cost = 3
         self.knockback = 100
